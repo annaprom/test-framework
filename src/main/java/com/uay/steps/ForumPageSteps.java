@@ -22,39 +22,38 @@ public class ForumPageSteps extends ScenarioSteps {
 
     @Step
     public void typeLogin(final String login) {
-        loginToForumPage.getLoginField().type(login);
+        loginToForumPage.enterLogin(login);
     }
 
     @Step
     public void typePassword(final String password) {
-        loginToForumPage.getPasswordField().type(password);
+        loginToForumPage.enterPassword(password);
     }
 
     @Step
     public void clickSignOnButton() {
-        loginToForumPage.getSignOnButton().click();
+        loginToForumPage.clickSignInButton();
     }
 
     @Step
     public void checkSignIn(final String login) {
-        assertThat("User has not logged in", loginToForumPage.getLoginBlock().getText().equals(login));
+        assertThat("User has not logged in", loginToForumPage.hasUserLoggedIn(login));
     }
 
     @Step
     public void checkSignInBlock(final String login, final String password) {
         userOpensLoginPage();
         userLogsIn(login, password);
-        loginToForumPage.getLoginBlock();
     }
 
     @Step
     public void clickSignOutButton() {
-        loginToForumPage.getLogoutButton().click();
+        loginToForumPage.clickSignOutButton();
     }
 
     @Step
     public void checkSignOut() {
-        assertThat("User is not on login page ", loginToForumPage.getSignOnButton().isPresent());
+        assertThat("User is not on login page ", loginToForumPage.hasUserLoggedOut());
     }
 
 }

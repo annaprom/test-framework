@@ -25,23 +25,27 @@ public class LoginToForumPage extends PageObject {
     private WebElementFacade logoutButton;
 
 
-    public WebElementFacade getLoginField() {
-        return loginField;
+    public void enterLogin(String login) {
+        loginField.type(login);
     }
 
-    public WebElementFacade getPasswordField() {
-        return passwordField;
+    public void enterPassword(String password) {
+        passwordField.type(password);
     }
 
-    public WebElementFacade getSignOnButton() {
-        return signOnButton;
+    public void clickSignInButton() {
+        signOnButton.click();
     }
 
-    public WebElementFacade getLoginBlock() {
-        return loginBlock;
+    public void clickSignOutButton() {
+        logoutButton.click();
     }
 
-    public WebElementFacade getLogoutButton() {
-        return logoutButton;
+    public boolean hasUserLoggedIn(String login) {
+        return loginBlock.getText().equals(login);
+    }
+
+    public boolean hasUserLoggedOut() {
+        return signOnButton.isPresent();
     }
 }
