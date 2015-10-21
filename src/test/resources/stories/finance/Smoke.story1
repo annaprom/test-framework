@@ -6,28 +6,28 @@ In order to understand that web application's home page works properly
 As a user
 I want to be able to use main functionality of the web application
 
-Scenario: 01 Search functionality
-Given user is on currency page
-When user enters test word in search field
-Then user is on search page
+Scenario: 03 Search functionality
+Given User is on currency page
+When User enters test word in search field
+Then User is on search page
 
-Scenario: 02 Change language
-Given user is on currency page
-When user clicks on <Language>
-Then page's language is <Language>
+Scenario: 04 Change language
+Given User is on currency page
+When User clicks on <Language>
+Then Page's language is <Language>
 
 Examples:
 |Language	|
 |ua			|
 |ru         |
 
-Scenario: 03 Finance block content
-Given user is on currency page
+Scenario: 05 Finance block content
+Given User is on currency page
 Then Finance blocks with <BlocksTitle> are presented on currency page
-And current block has chart
-And current page has USD button
-And current page has EUR button
-And current page has RUB button
+And Current block has chart
+And Current page has USD button
+And Current page has EUR button
+And Current page has RUB button
 
 Example:
 |BlocksTitle            |
@@ -37,8 +37,8 @@ Example:
 |Межбанк                |
 |Официальные курсы      |
 
-Scenario: 04 Main Menu buttons on currency page
-Given user is on currency page
+Scenario: 06 Main Menu buttons on currency page
+Given User is on currency page
 Then Currency page has main menu section
 And <MainMenuButtons> are in menu sections
 
@@ -51,8 +51,8 @@ Example:
 |Депозиты       |
 |Индексы        |
 
-Scenario: 05 Currency Menu buttons
-Given user is on currency page
+Scenario: 07 Currency Menu buttons
+Given User is on currency page
 Then Currency page has currency menu section
 And <CurrencyMenuButtons> are in menu sections
 
@@ -72,10 +72,10 @@ Example:
 |Экспорт            |
 |Ещё                |
 
-Scenario: 06 Logo on currency page
-Given user is on currency page
-When user clicks on Logo
-Then user is on the main page
+Scenario: 08 Logo on currency page
+Given User is on currency page
+When User clicks on Logo
+Then User is on the main page
 
 
 

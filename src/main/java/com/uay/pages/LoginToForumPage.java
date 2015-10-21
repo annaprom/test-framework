@@ -6,26 +6,22 @@ import net.thucydides.core.annotations.DefaultUrl;
 import net.thucydides.core.pages.PageObject;
 import org.openqa.selenium.WebDriver;
 
-/**
- * Created by Anastasiia_Udovichen on 10/19/2015.
- */
-
 @DefaultUrl("http://forum.finance.ua/")
-public class ForumPage extends PageObject {
+public class LoginToForumPage extends PageObject {
 
-    @FindBy(xpath = "//*[@name='username']")
+    @FindBy(name="username")
     private WebElementFacade loginField;
 
-    @FindBy(xpath = "//*[@name='password']")
+    @FindBy(name="password")
     private WebElementFacade passwordField;
 
-    @FindBy(xpath = "//*[@name='login']")
+    @FindBy(name="login")
     private WebElementFacade signOnButton;
 
     @FindBy(xpath = "//*[@class='login']/b")
     private WebElementFacade loginBlock;
 
-    @FindBy(xpath = "//*[@class='logout']")
+    @FindBy(className = "logout")
     private WebElementFacade logoutButton;
 
 

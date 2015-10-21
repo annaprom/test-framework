@@ -6,10 +6,10 @@ In order to use web application
 As a user
 I want to logout from the system
 
-Scenario: 01 User successfully login
-Given user successfully logged in with <login> as login and <password> as password
-When user clicks on exit button
-Then user on log in page
+Scenario: 02 User successfully logout
+Given User successfully logged in with login as login and password as password
+When User clicks on exit button
+Then User on log in page
 
 Examples:
 |login		|password	|

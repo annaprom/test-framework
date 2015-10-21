@@ -7,9 +7,9 @@ As a user
 I want to enter my credentials and log into the system
 
 Scenario: 01 User successfully login
-Given user opens Login Page
-When user signs on with <login> as login and <password> as password
-Then user with <login> successfully logged in
+Given User opens Login Page
+When User signs on with login as login and password as password
+Then User with login successfully logged in
 
 Examples:
 |login		|password	|
