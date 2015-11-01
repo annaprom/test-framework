@@ -21,7 +21,7 @@ public class LoginToForumPage extends PageObject {
     @FindBy(xpath = "//*[@class='login']/b")
     private WebElementFacade loginBlock;
 
-    @FindBy(className = "logout")
+    @FindBy(className = "logout", timeoutInSeconds = "10")
     private WebElementFacade logoutButton;
 
 
@@ -34,7 +34,7 @@ public class LoginToForumPage extends PageObject {
     }
 
     public void clickSignInButton() {
-        signOnButton.click();
+        signOnButton.waitUntilClickable().click();
     }
 
     public void clickSignOutButton() {
@@ -46,6 +46,23 @@ public class LoginToForumPage extends PageObject {
     }
 
     public boolean hasUserLoggedOut() {
-        return signOnButton.isPresent();
+        return signOnButton.isVisible();
     }
 }
+
+/**
+    waitUntilVisible();
+    waitUntilPresent();
+    waitForCondition();
+    waitUntilNotVisible();
+    waitUntilEnabled();
+    waitUntilClickable();
+    waitUntilDisabled();
+
+    getImplicitTimeoutInMilliseconds();
+    withTimeoutOf(int timeout, TimeUnit unit);
+
+Wait for an element to be visible and enabled, and then click on it.
+    public void click();
+    public void clear();
+} */
