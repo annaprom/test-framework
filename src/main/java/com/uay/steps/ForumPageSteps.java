@@ -52,10 +52,23 @@ public class ForumPageSteps extends ScenarioSteps {
     }
 
     @Step
+    public void clickSearchButton() {
+        loginToForumPage.clickSearchButton();
+    }
+
+    @Step
+    public void checkSearchPage(){
+        assertThat("User is not on search page", loginToForumPage.checkSearchPage());}
+
+    @Step
     public void checkSignOut() {
         assertThat("User is not on login page ", loginToForumPage.hasUserLoggedOut());
     }
 
+    @Step
+    public void checkPageBody() {
+        assertThat("No page body ", loginToForumPage.isPageBodyVisible());
+    }
 }
 
 

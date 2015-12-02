@@ -10,8 +10,8 @@ public class ForumDefinitionSteps {
     @Steps
     ForumPageSteps forumPageSteps;
 
-    @Given("User opens Login Page")
-    public void givenUserOpensLoginPage (){
+    @Given("User opens Main Page")
+    public void givenUserOpensMainPage(){
         forumPageSteps.userOpensLoginPage();
     }
 
@@ -37,4 +37,13 @@ public class ForumDefinitionSteps {
     public void thenUserOnLogInPage (){
         forumPageSteps.checkSignOut();
     }
+
+    @When("User clicks search button")
+    public void whenUserClicksSearchButton () { forumPageSteps.clickSearchButton();}
+
+    @Then("User is on search page")
+    public void thenUserIsOnSearchPage () { forumPageSteps.checkSearchPage();}
+
+    @Then("Page body is visible")
+    public void thenPageBodyIsVisible () {forumPageSteps.checkPageBody();}
 }

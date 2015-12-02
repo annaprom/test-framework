@@ -1,0 +1,80 @@
+11/29/2015 15:25:57.432 [INFO] [pool-1-thread-1] com.uay.pages.LoginToForumPage - Entered login annaprom
+11/29/2015 15:25:57.662 [INFO] [pool-1-thread-1] com.uay.pages.LoginToForumPage - Entered password 223218Qwerty
+11/29/2015 15:25:57.844 [DEBUG] [pool-1-thread-1] com.uay.pages.LoginToForumPage - Clicked on sign in
+11/29/2015 15:26:00.185 [DEBUG] [pool-1-thread-1] com.uay.pages.LoginToForumPage - User annaprom loggedIn: true
+11/29/2015 15:26:09.734 [INFO] [pool-1-thread-1] com.uay.pages.LoginToForumPage - Entered login annaprom
+11/29/2015 15:26:09.998 [INFO] [pool-1-thread-1] com.uay.pages.LoginToForumPage - Entered password 223218Qwerty
+11/29/2015 15:26:10.121 [DEBUG] [pool-1-thread-1] com.uay.pages.LoginToForumPage - Clicked on sign in
+11/29/2015 15:26:12.525 [DEBUG] [pool-1-thread-1] com.uay.pages.LoginToForumPage - Clicked on sign out
+12/02/2015 14:24:16.657 [INFO] [pool-1-thread-1] com.uay.pages.LoginToForumPage - Entered login annaprom
+12/02/2015 14:24:17.144 [INFO] [pool-1-thread-1] com.uay.pages.LoginToForumPage - Entered password 223218Qwerty
+12/02/2015 14:24:17.277 [DEBUG] [pool-1-thread-1] com.uay.pages.LoginToForumPage - Clicked on sign in
+12/02/2015 14:24:21.060 [DEBUG] [pool-1-thread-1] com.uay.pages.LoginToForumPage - User annaprom loggedIn: true
+12/02/2015 14:24:33.515 [DEBUG] [pool-1-thread-1] com.uay.pages.LoginToForumPage - Clicked on search
+12/02/2015 14:24:43.703 [INFO] [pool-1-thread-1] com.uay.pages.LoginToForumPage - Entered login annaprom
+12/02/2015 14:24:45.160 [INFO] [pool-1-thread-1] com.uay.pages.LoginToForumPage - Entered password 223218Qwerty
+12/02/2015 14:24:45.293 [DEBUG] [pool-1-thread-1] com.uay.pages.LoginToForumPage - Clicked on sign in
+12/02/2015 14:24:46.970 [DEBUG] [pool-1-thread-1] com.uay.pages.LoginToForumPage - Clicked on sign out
+12/02/2015 14:26:23.707 [INFO] [pool-1-thread-1] com.uay.pages.LoginToForumPage - Entered login annaprom
+12/02/2015 14:26:23.862 [INFO] [pool-1-thread-1] com.uay.pages.LoginToForumPage - Entered password 223218Qwerty
+12/02/2015 14:26:24.006 [DEBUG] [pool-1-thread-1] com.uay.pages.LoginToForumPage - Clicked on sign in
+12/02/2015 14:26:26.961 [DEBUG] [pool-1-thread-1] com.uay.pages.LoginToForumPage - User annaprom loggedIn: true
+12/02/2015 14:26:35.783 [DEBUG] [pool-1-thread-1] com.uay.pages.LoginToForumPage - Clicked on search
+12/02/2015 14:26:48.100 [INFO] [pool-1-thread-1] com.uay.pages.LoginToForumPage - Entered login annaprom
+12/02/2015 14:26:48.240 [INFO] [pool-1-thread-1] com.uay.pages.LoginToForumPage - Entered password 223218Qwerty
+12/02/2015 14:26:48.391 [DEBUG] [pool-1-thread-1] com.uay.pages.LoginToForumPage - Clicked on sign in
+12/02/2015 14:26:50.274 [DEBUG] [pool-1-thread-1] com.uay.pages.LoginToForumPage - Clicked on sign out
+12/02/2015 14:28:02.026 [INFO] [pool-1-thread-1] com.uay.pages.LoginToForumPage - Entered login annaprom
+12/02/2015 14:28:02.184 [INFO] [pool-1-thread-1] com.uay.pages.LoginToForumPage - Entered password 223218Qwerty
+12/02/2015 14:28:02.329 [DEBUG] [pool-1-thread-1] com.uay.pages.LoginToForumPage - Clicked on sign in
+12/02/2015 14:28:04.056 [DEBUG] [pool-1-thread-1] com.uay.pages.LoginToForumPage - User annaprom loggedIn: true
+12/02/2015 14:28:15.652 [DEBUG] [pool-1-thread-1] com.uay.pages.LoginToForumPage - Clicked on search
+12/02/2015 14:28:27.381 [INFO] [pool-1-thread-1] com.uay.pages.LoginToForumPage - Entered login annaprom
+12/02/2015 14:28:27.520 [INFO] [pool-1-thread-1] com.uay.pages.LoginToForumPage - Entered password 223218Qwerty
+12/02/2015 14:28:27.762 [DEBUG] [pool-1-thread-1] com.uay.pages.LoginToForumPage - Clicked on sign in
+12/02/2015 14:28:31.307 [DEBUG] [pool-1-thread-1] com.uay.pages.LoginToForumPage - Clicked on sign out
+12/02/2015 14:28:50.527 [INFO] [pool-1-thread-1] com.uay.pages.LoginToForumPage - Entered login annaprom
+12/02/2015 14:28:50.677 [INFO] [pool-1-thread-1] com.uay.pages.LoginToForumPage - Entered password 223218Qwerty
+12/02/2015 14:28:50.853 [DEBUG] [pool-1-thread-1] com.uay.pages.LoginToForumPage - Clicked on sign in
+12/02/2015 14:28:54.266 [DEBUG] [pool-1-thread-1] com.uay.pages.LoginToForumPage - User annaprom loggedIn: true
+12/02/2015 14:29:05.720 [DEBUG] [pool-1-thread-1] com.uay.pages.LoginToForumPage - Clicked on search
+12/02/2015 14:29:16.616 [INFO] [pool-1-thread-1] com.uay.pages.LoginToForumPage - Entered login annaprom
+12/02/2015 14:29:16.788 [INFO] [pool-1-thread-1] com.uay.pages.LoginToForumPage - Entered password 223218Qwerty
+12/02/2015 14:29:16.948 [DEBUG] [pool-1-thread-1] com.uay.pages.LoginToForumPage - Clicked on sign in
+12/02/2015 14:29:18.490 [DEBUG] [pool-1-thread-1] com.uay.pages.LoginToForumPage - Clicked on sign out
+12/02/2015 14:29:55.791 [INFO] [pool-1-thread-1] com.uay.pages.LoginToForumPage - Entered login annaprom
+12/02/2015 14:29:55.971 [INFO] [pool-1-thread-1] com.uay.pages.LoginToForumPage - Entered password 223218Qwerty
+12/02/2015 14:29:56.114 [DEBUG] [pool-1-thread-1] com.uay.pages.LoginToForumPage - Clicked on sign in
+12/02/2015 14:30:02.286 [DEBUG] [pool-1-thread-1] com.uay.pages.LoginToForumPage - User annaprom loggedIn: true
+12/02/2015 14:30:13.065 [DEBUG] [pool-1-thread-1] com.uay.pages.LoginToForumPage - Clicked on search
+12/02/2015 14:30:25.579 [INFO] [pool-1-thread-1] com.uay.pages.LoginToForumPage - Entered login annaprom
+12/02/2015 14:30:25.716 [INFO] [pool-1-thread-1] com.uay.pages.LoginToForumPage - Entered password 223218Qwerty
+12/02/2015 14:30:25.842 [DEBUG] [pool-1-thread-1] com.uay.pages.LoginToForumPage - Clicked on sign in
+12/02/2015 14:30:28.663 [DEBUG] [pool-1-thread-1] com.uay.pages.LoginToForumPage - Clicked on sign out
+12/02/2015 14:51:20.476 [INFO] [pool-1-thread-1] com.uay.pages.LoginToForumPage - Entered login annaprom
+12/02/2015 14:51:20.625 [INFO] [pool-1-thread-1] com.uay.pages.LoginToForumPage - Entered password 223218Qwerty
+12/02/2015 14:51:20.757 [DEBUG] [pool-1-thread-1] com.uay.pages.LoginToForumPage - Clicked on sign in
+12/02/2015 14:51:24.015 [DEBUG] [pool-1-thread-1] com.uay.pages.LoginToForumPage - User annaprom loggedIn: true
+12/02/2015 14:51:48.901 [DEBUG] [pool-1-thread-1] com.uay.pages.LoginToForumPage - Clicked on search
+12/02/2015 14:51:58.520 [INFO] [pool-1-thread-1] com.uay.pages.LoginToForumPage - Entered login annaprom
+12/02/2015 14:51:58.657 [INFO] [pool-1-thread-1] com.uay.pages.LoginToForumPage - Entered password 223218Qwerty
+12/02/2015 14:51:58.787 [DEBUG] [pool-1-thread-1] com.uay.pages.LoginToForumPage - Clicked on sign in
+12/02/2015 14:52:01.647 [DEBUG] [pool-1-thread-1] com.uay.pages.LoginToForumPage - Clicked on sign out
+12/02/2015 14:53:15.423 [INFO] [pool-1-thread-1] com.uay.pages.LoginToForumPage - Entered login annaprom
+12/02/2015 14:53:15.568 [INFO] [pool-1-thread-1] com.uay.pages.LoginToForumPage - Entered password 223218Qwerty
+12/02/2015 14:53:15.695 [DEBUG] [pool-1-thread-1] com.uay.pages.LoginToForumPage - Clicked on sign in
+12/02/2015 14:53:17.981 [DEBUG] [pool-1-thread-1] com.uay.pages.LoginToForumPage - User annaprom loggedIn: true
+12/02/2015 14:53:29.917 [DEBUG] [pool-1-thread-1] com.uay.pages.LoginToForumPage - Clicked on search
+12/02/2015 14:53:40.029 [INFO] [pool-1-thread-1] com.uay.pages.LoginToForumPage - Entered login annaprom
+12/02/2015 14:53:40.173 [INFO] [pool-1-thread-1] com.uay.pages.LoginToForumPage - Entered password 223218Qwerty
+12/02/2015 14:53:40.314 [DEBUG] [pool-1-thread-1] com.uay.pages.LoginToForumPage - Clicked on sign in
+12/02/2015 14:53:42.144 [DEBUG] [pool-1-thread-1] com.uay.pages.LoginToForumPage - Clicked on sign out
+12/02/2015 17:24:18.677 [INFO] [pool-1-thread-1] com.uay.pages.LoginToForumPage - Entered login annaprom
+12/02/2015 17:24:18.918 [INFO] [pool-1-thread-1] com.uay.pages.LoginToForumPage - Entered password 223218Qwerty
+12/02/2015 17:24:19.055 [DEBUG] [pool-1-thread-1] com.uay.pages.LoginToForumPage - Clicked on sign in
+12/02/2015 17:24:23.470 [DEBUG] [pool-1-thread-1] com.uay.pages.LoginToForumPage - User annaprom loggedIn: true
+12/02/2015 17:24:35.734 [DEBUG] [pool-1-thread-1] com.uay.pages.LoginToForumPage - Clicked on search
+12/02/2015 17:24:51.042 [INFO] [pool-1-thread-1] com.uay.pages.LoginToForumPage - Entered login annaprom
+12/02/2015 17:24:51.187 [INFO] [pool-1-thread-1] com.uay.pages.LoginToForumPage - Entered password 223218Qwerty
+12/02/2015 17:24:51.330 [DEBUG] [pool-1-thread-1] com.uay.pages.LoginToForumPage - Clicked on sign in
+12/02/2015 17:24:56.018 [DEBUG] [pool-1-thread-1] com.uay.pages.LoginToForumPage - Clicked on sign out

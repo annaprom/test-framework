@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+    <Appenders>
+        <Console name="CONSOLE" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{MM/dd/yyyy HH:mm:ss.SSS} [%level] [%t] %logger{36} - %msg%n" />
+        </Console>
+        <File name="MyFile" fileName="logs/app.log">
+            <PatternLayout pattern="%d{MM/dd/yyyy HH:mm:ss.SSS} [%level] [%t] %logger{36} - %msg%n" />
+        </File>
+        <Async name="Async">
+            <AppenderRef ref="MyFile"/>
+        </Async>
+    </Appenders>
+    <Loggers>
+        <logger name="javabeat.net.util" level="TRACE" />
+        <Root level="DEBUG">
+            <AppenderRef ref="CONSOLE"/>
+            <AppenderRef ref="MyFile"/>
+        </Root>
+    </Loggers>
+</Configuration>
