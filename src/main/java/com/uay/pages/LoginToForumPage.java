@@ -6,7 +6,9 @@ import net.thucydides.core.annotations.DefaultUrl;
 import net.thucydides.core.pages.PageObject;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedCondition;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 
 
 @DefaultUrl("http://forum.finance.ua/")
@@ -57,6 +59,12 @@ public class LoginToForumPage extends PageObject {
 
     public boolean hasUserLoggedIn(String login) {
         boolean loggedIn = loginBlock.getText().equals(login);
+//        waitForCondition().until(ExpectedConditions.visibilityOf(pageBody) );
+        waitForCondition().until(new ExpectedCondition<Boolean>() {
+            public Boolean apply(WebDriver webDriver) {
+                return pageBody.isVisible();
+            }
+        });
         logger.debug("User " + login + " loggedIn: " + loggedIn);
         return loggedIn;
     }
@@ -70,14 +78,9 @@ public class LoginToForumPage extends PageObject {
         return signOnButton.isVisible();
            }
 
-
     public boolean isPageBodyVisible() {return pageBody.isVisible(); }
 
-    //public ExpectedCondition PageBodyIsVisible(){
-    //    return ExpectedCondition(pageBody.isVisible());            }
-
     public boolean checkSearchPage(){
-        //waitForCondition().until(ExpectedCondition. );
         return getTitle().equals("Пошук - Форумы на FINANCE.UA");
     }
 }
